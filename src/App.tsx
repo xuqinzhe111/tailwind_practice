@@ -1,27 +1,15 @@
-import "./App.css";
-
+import Sample from "./components/sample";
+import Yourheader from "./components/Yourheader";
 function App() {
   return (
     <>
-      <header>
-        <a href="#">
-          <img src="./src/assets/logo.png" alt="Company Logo" />
-        </a>
-        <nav>
-          <a href="#">Dashboard</a>
-          <a href="#">Projects</a>
-          <a href="#">Team</a>
-          <a href="#">Calendar</a>
-        </nav>
-        <div>
-          <img src="./src/assets/avatar.jpg" alt="User" />
-          <div>
-            <a href="#">Profile</a>
-            <a href="#">Settings</a>
-            <a href="#">Logout</a>
-          </div>
-        </div>
-      </header>
+      <Sample/>
+      <div className="mt-2 text-red-600">Gray area below is your working space. Edit the file "./components/Yourhearder" </div>
+      <div className="bg-slate-500 mt-6">
+      <Yourheader />
+      </div>
+      
+      <></>
     </>
   );
 }
